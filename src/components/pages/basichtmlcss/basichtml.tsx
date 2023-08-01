@@ -1,6 +1,6 @@
 import React from 'react'
 import './basic.css'
-import pershiba from '../../../constants/Pershiba-Image.jpeg'
+import  pershiba from '../../../constants/Pershiba-Image.jpeg'
 export const Basichtml = () => {
   return (
     <div>

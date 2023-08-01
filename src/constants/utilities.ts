@@ -1,3 +1,5 @@
+
+//import * as Pershiba from './Pershiba-Image.jpeg'
 export const TableContent: Array<any> = [
 
     {
