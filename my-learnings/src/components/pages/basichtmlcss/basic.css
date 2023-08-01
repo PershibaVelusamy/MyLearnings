@@ -1,0 +1,125 @@
+h1 {
+    text-align: center;
+    color: #551a8b;
+}
+.myName{
+    text-shadow: 1px 1px 2px #450f79, 0 0 25px rgb(108, 44, 212), 0 0 5px rgb(5, 5, 96);
+}
+
+.h4class {
+    padding-left: 60%;
+}
+
+.h5Class {
+    padding: 2px;
+
+}
+
+.directionLink {
+    display: flex;
+    justify-content: space-between;
+
+}
+.h2class{
+    text-decoration: underline;
+    text-decoration-color: rgb(43, 6, 43);
+    text-decoration-style: dashed;
+}
+.Container {
+    padding: 10px 80px 10px;
+    margin: 50px;
+    height: auto;
+    width: 1000px;
+    border-radius: 10px;
+    border: 1.5px solid #7ea1db;
+    background-color: #b9ceef;
+    outline-style: solid;
+    outline-color: #7ea1db;
+    outline-width: 15px;
+    outline-offset: 3px;
+
+
+}
+
+img {
+
+    padding-right: 30px;
+}
+
+.header {
+    display: flex;
+}
+
+hr {
+
+    border: 1.5px solid black;
+    width: 100%
+}
+
+.oneline {
+    display: flex;
+}
+
+.Intro {
+    font-size: 16px;
+    text-align: justify;
+    direction: ltr;
+    word-spacing: 2px;
+    white-space:break-spaces;
+}
+.Education{
+    word-spacing: 0.8px; 
+   
+}
+.subContainer {
+    width: 25%;
+    height: auto;
+    border-radius: 10px;
+    border: 1.5px solid rgb(172, 120, 221);
+    background-color: rgb(172, 120, 221);
+    padding: 2px 3px 2px 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: rgb(5, 135, 135);
+}
+
+a:link {
+    color: blue;
+}
+
+ul {
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.8;
+    word-spacing: 2px;
+}
+
+.containerWrapper {
+    display: flex;
+}
+
+.subContainter2 {
+    background-image: url('../../../constants/resume.webp');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: 75%;
+    height: auto;
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    opacity: 0.3;
+    /* background-repeat: repeat-x; */
+    border-top: 2px solid #07bbbb;
+    border-left: 2px solid #07bbbb;
+    border-right: 4px solid #059595;
+    border-bottom: 4px solid #059595;
+}
