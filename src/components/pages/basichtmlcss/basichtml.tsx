@@ -1,6 +1,6 @@
 import React from 'react'
 import './basic.css'
-import  pershiba from '../../../constants/Pershiba-Image.jpeg'
+import pershiba from '../../../constants/Pershiba-Image.jpeg'
 export const Basichtml = () => {
   return (
     <div>
@@ -28,8 +28,18 @@ export const Basichtml = () => {
         <hr />
         <div className='containerWrapper'>
           <div className='subContainer'>
+            <div>
+              <h2 className='contact h2class'>contact details:</h2>
+
+
+              <p className='phone'><i className="fa-sharp fa-solid fa-phone phoneicon"></i> +91 9787546335 </p>
+              <p className='phone'><i className="fa-sharp fa-solid fa-envelope"></i> pershibav@gmail.com </p>
+
+
+            </div>
+
             <h2 className='h2class'>Expertise:</h2>
-            <ul>
+            <ul className='ulListOFskil'>
               <li>Web Development</li>
               <li>Javascript</li>
               <li>Typescript</li>
@@ -53,12 +63,38 @@ export const Basichtml = () => {
               </p>
 
             </div>
-
+ 
 
 
           </div>
           <div className='subContainter2'>
+            <div className='subdiv2controler'>
 
+              <p className='experience'>experience:</p>
+
+
+
+              <div >
+                <p className='companyName'>Vectone solutions Private Limited - Full stack  developer</p>
+                <p ><span className='year'>Jan 2021 - Jun 2023</span> <span className='companylocation'>-chennai</span></p>
+
+              </div>
+              <div className='DetailsList'>
+                <ul className='experienceul'>
+                  <li>
+                  2  years and 6 months of working experience in developing UCAAS, conversational AI, Marketing Automation and CCAAS application using React, Node JS, Redux toolkit and javascript.
+                  </li>
+                  <li>
+                  Experienced is designing and integrating REST api's for backend using Express.
+                  </li>
+                  <li>
+                  Experienced in developing and implementing socket Server using Express setup.
+                  </li>
+
+                </ul>
+              </div>
+
+            </div>
 
 
           </div>

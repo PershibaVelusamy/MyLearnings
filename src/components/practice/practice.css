@@ -1,0 +1,94 @@
+.formDisplay{
+   margin: 20px;
+   padding: 20px;
+   background-color: blanchedalmond;
+   border: 3px dashed black;
+   width: auto;
+}
+.svgstyle{fill:violet;
+    stroke-width:30px;
+    stroke:black;
+opacity:0.5}
+
+.star{
+
+    fill:rgb(254, 203, 248);
+    stroke:purple;
+    stroke-width:5;
+    /* fill-rule:evenodd; */
+}
+
+.star1{
+
+    fill:rgb(254, 203, 248);
+    stroke:purple;
+    stroke-width:5;
+    fill-rule:evenodd;
+}
+
+#div1 {
+  
+    width: 350px;
+    height: auto;
+    min-height: 100px;
+    padding: 10px;
+    border: 3px solid #0f0c0c;
+  }
+  .butongeo{
+    border: 2px solid green;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: green;
+    font-variant:small-caps;
+    font-weight: bold;
+  }
+.loactionGEo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.draganddrop{
+    display:flex ;
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+}
+label{
+    padding-left: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input,select,textarea{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: gray;
+}
+.comment{
+    display: flex;
+  
+}
+.commentlable{
+    padding-top: 30px;
+}
+.legend{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+}
+.subButton{
+    border-radius: 10px !important;
+    color: #0f0c0c !important;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    width: 350px;
+}
+.form{
+    width: auto;
+}
