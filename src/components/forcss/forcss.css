@@ -14,7 +14,6 @@
     border-top-left-radius: 25px 35px;
     border-top-right-radius: 25px 35px;
     box-sizing: border-box;
-    width: 150vh;
     height: auto;
     margin: 10px 10px 10px 60px;
     text-decoration: underline;
@@ -32,16 +31,23 @@
     border-radius: 10px;
     box-sizing: border-box;
     border: 2px solid currentcolor;
-    width: 150px;
+    width: 250px;
+    padding: 10px;
     height: 50px;
-
+    box-shadow: 0 9px #999;
     color: #0f0c0c;
     background-color: greenyellow;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 50px;
 
 }
+
+.nextButton:active {
+    background-color: greenyellow;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .nextsuport {
     float: right;
@@ -217,13 +223,62 @@
     margin: 10px;
     justify-content: space-between;
 }
+.maind6 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+  
+}
+
+.maind5 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    outline: 4px solid red;
+    outline-offset: 15px;
+    height: auto;
+}
+
+
+.newspaper{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-span: all;
+    column-rule: 3px solid rgb(5, 81, 107);
+}
 .panda{
   
     -webkit-box-reflect: right;
 }
 .panda1{
     -webkit-box-reflect: below;
+    height: auto;
 }
 .panda2{
-    -webkit-box-reflect: top;
+    -webkit-mask-image: url('../../constants/Pershiba-Image.jpeg');
+    mask-image: url("../../constants/images.png");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    
+    
 }
+
+.pagination{
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
