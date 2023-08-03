@@ -4,6 +4,8 @@ import{Basichtml} from './components/pages/basichtmlcss/basichtml'
 import './App.css';
 import { Practice } from './components/practice/practice';
 import { Forcss } from './components/forcss/Forcss';
+import{Grid} from './components/Grid/grid'
+import{Responsive} from './components/responsive/responsive'
 import { BrowserRouter,Route,Routes } from "react-router-dom";
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
         <Routes>
 <Route path={'/'} element={  <Practice/>} />
 <Route path={'/css'} element={<Forcss/>}/>
+<Route path='/grid' element={<Grid/>}/>
 <Route path={'/resume'} element={  <Basichtml/>} />
+<Route path={'/responsive'} element={  <Responsive/>} />
 
 
         </Routes>

@@ -282,3 +282,27 @@
   }
   .pagination a:hover:not(.active) {background-color: #ddd;}
 
+
+  .flex-container {
+    display: flex;
+    width: 300px;
+    flex-flow: row wrap;
+    margin: 20px 0px 20px 417px;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > button {
+    background-color: #f1f1f1;
+    width: 80px;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+  }
+  .flex-container > input {
+    background-color: #f1f1f1;
+    width: 238px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }

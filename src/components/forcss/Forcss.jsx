@@ -142,8 +142,31 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
 <br/>
 </div>
 <br/>
+
+
+
+<div class="flex-container">
+    <input type="text" />
+
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>  
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>  
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>  
+  <button>*</button>
+  <button>0</button>
+  <button>#</button>  
+
+
+</div>
+
+
             </div>
-            <button className='nextButton nextsuport' onClick={() => navigate('/resume')}> Go to Resume</button>
+            <button className='nextButton nextsuport' onClick={() => navigate('/grid')}> Go to Grid</button>
         </div>
 
     )
