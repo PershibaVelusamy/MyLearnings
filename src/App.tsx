@@ -3,15 +3,26 @@ import {MainWraper} from './components/pages/index'
 import{Basichtml} from './components/pages/basichtmlcss/basichtml'
 import './App.css';
 import { Practice } from './components/practice/practice';
-
+import { Forcss } from './components/forcss/Forcss';
+import { BrowserRouter,Route,Routes } from "react-router-dom";
 function App() {
   return (
- <div className='Mainwrapper'>
+    <BrowserRouter>
+        <Routes>
+<Route path={'/'} element={  <Practice/>} />
+<Route path={'/css'} element={<Forcss/>}/>
+<Route path={'/resume'} element={  <Basichtml/>} />
+
+
+        </Routes>
+    <div className='Mainwrapper'>
   {/* <MainWraper/> */}
-  <Basichtml/>
-  <Practice/>
+
+  {/* <Practice/> */}
 
  </div>
+    </BrowserRouter>
+ 
   );
 }
 

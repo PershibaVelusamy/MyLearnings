@@ -92,3 +92,16 @@ input,select,textarea{
 .form{
     width: auto;
 }
+.nextButton{
+    border-radius: 10px;
+   box-sizing: border-box;
+   border: 2px solid black;
+   width: 150px;
+   height: 50px;
+   color: #0f0c0c;
+   background-color: greenyellow;
+   font-size: 20px;
+   font-weight: bold;
+   float: right;
+    
+}
